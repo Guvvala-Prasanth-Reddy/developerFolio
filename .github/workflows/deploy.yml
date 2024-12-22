@@ -29,8 +29,11 @@ jobs:
 
       - name: Install Dependencies and Build 🔧
         env:
-            REACT_APP_GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-            USE_GITHUB_DATA: "true"
+          CI: false
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USE_GITHUB_DATA: "true"
+          MEDIUM_USERNAME: "@guvalaprashanth342"
         run: |
           npm install
           npm run build
