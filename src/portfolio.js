@@ -125,7 +125,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of New Mexico",
-      logo: require("./assets/images/unm-seal.jpg"),
+      logo: require("./assets/images/unm-seal.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "Jan 2023 - May 2025",
       desc: "Participated in the Computer science course work ,research of creating a sentiment based index for the topics AI , Cyber security and Bio diversity over a time period using Large Language Models.",
