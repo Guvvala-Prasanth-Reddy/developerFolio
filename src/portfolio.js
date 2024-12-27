@@ -39,7 +39,8 @@ const socialMediaLinks = {
   gitlab: "guvalaprashanth342@gmail.com",
   instagram: "https://www.instagram.com/prasanthreddyguvvala/",
   medium: "https://medium.com/@guvalaprashanth342",
-  stackoverflow: "https://stackoverflow.com/users/24041869/guvvala-prasanth-reddy",
+  stackoverflow:
+    "https://stackoverflow.com/users/24041869/guvvala-prasanth-reddy",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -54,10 +55,10 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly impactful Full stack web applications using Django and React"
     ),
-    emoji("⚡Devleop Machine Learning Pipelines , Data Loading Pipe lines , automation pipelines "),
     emoji(
-      "⚡ Integrate third party services such as AWS/AZURE"
-    )
+      "⚡Devleop Machine Learning Pipelines , Data Loading Pipe lines , automation pipelines "
+    ),
+    emoji("⚡ Integrate third party services such as AWS/AZURE")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -142,7 +143,9 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2017 - May 2021",
       desc: "Did my undergrad in Top ranked private university in India , Did a lot of extracurricular activity at FOSS club at Amrita.",
-      descBullets: ["Lhttps://www.amrita.edu/program/btech-computer-science-and-engineering/"]
+      descBullets: [
+        "Lhttps://www.amrita.edu/program/btech-computer-science-and-engineering/"
+      ]
     }
   ]
 };
@@ -191,7 +194,7 @@ const workExperiences = {
       companylogo: require("./assets/images/Deloitte.png"),
       date: "Jul 2021 – Aug 2022",
       desc: "Worked on designing and building full stack data integration projects. Participated in Code reviews, hackathons, bootcamps.",
-      descBullets:[
+      descBullets: [
         "Used Django , React for building web applications",
         "Built api end points , Single page applicaitons , worked with features like React-Redux,React hooks and router",
         "designed a project that scans throught legal documents using BERT and gives visual suggestions on decision making"
@@ -203,7 +206,8 @@ const workExperiences = {
       companylogo: require("./assets/images/DRDO.png"),
       date: "Feb 2021 – Jun 2021",
       desc: "Had an unique experience working for a famous and prominent national defense laboratory.",
-      descBullets:["Had an opporutnity to contribute to a Desktop application based on C++ and Qt",
+      descBullets: [
+        "Had an opporutnity to contribute to a Desktop application based on C++ and Qt",
         "Built Interfaces using QT and implemented user stories using C++",
         "Participated in team discussions and pair programming sessions."
       ]
