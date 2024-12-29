@@ -28,11 +28,18 @@ jobs:
 
       - name: Update npm 🚀
         run: npm install -g npm@latest
+      
+      - name: Debug environment variables
+        run: printenv | grep REACT_APP_GITHUB_TOKEN
+      
 
       - name: Install and Build 🔧 # Build the Project
+        env: 
+          REACT_APP_GITHUB_TOKEN: ${{secrets.token}}
         run: |
           npm install
           npm run build
+          printenv | grep REACT_APP_GITHUB_TOKEN
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
