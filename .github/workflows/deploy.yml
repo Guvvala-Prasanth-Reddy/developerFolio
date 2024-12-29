@@ -40,6 +40,8 @@ jobs:
           npm install
           npm run build
           printenv | grep REACT_APP_GITHUB_TOKEN
+          cat ./build/profile.json
+          cat ./build/blogs.json
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
