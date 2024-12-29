@@ -127,10 +127,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University University",
+      schoolName: "University of New Mexico",
       logo: require("./assets/images/unm-seal.jpeg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "2023 2017 - April 2019",
+      duration: "2023 Jan - May 2025",
       desc: "Participated in the Computer science course work ,research of creating a sentiment based index for the topics AI , Cyber security and Bio diversity over a time period using Large Language Models.",
       descBullets: [
         "coursework",
